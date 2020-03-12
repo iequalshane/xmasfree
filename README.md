@@ -14,5 +14,7 @@ Setup
 Build
 ----------------------------------
 Windows - Run build.cmd
+
 Mac/Linux - Run build.sh
-Output is found in te build directory.
+
+Output is found in the build directory.
