@@ -1,0 +1,150 @@
+tiles_presents:
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00003300
+	dc.l 0x00034433
+	dc.l 0x00034434
+	dc.l 0x00bbbb33
+	dc.l 0x00bccc34
+
+	dc.l 0x00bc1c34
+	dc.l 0x00b11134
+	dc.l 0x00bc1c34
+	dc.l 0x00bccc34
+	dc.l 0x00b1cc34
+	dc.l 0x00bbbb33
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x03300000
+	dc.l 0x34430000
+	dc.l 0x34430000
+	dc.l 0x3bbbb000
+	dc.l 0x3cccb000
+
+	dc.l 0x3cccb000
+	dc.l 0x3cc1b000
+	dc.l 0x3cccb000
+	dc.l 0x3c1cb000
+	dc.l 0x3c11b000
+	dc.l 0x3bbbb000
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x0000aa00
+	dc.l 0x000a99aa
+	dc.l 0x000a99a9
+	dc.l 0x003333aa
+	dc.l 0x003411a9
+
+	dc.l 0x003114a9
+	dc.l 0x003144a9
+	dc.l 0x003444a9
+	dc.l 0x003441a9
+	dc.l 0x003411a9
+	dc.l 0x003333aa
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x0aa00000
+	dc.l 0xa99a0000
+	dc.l 0xa99a0000
+	dc.l 0xa3333000
+	dc.l 0xa1143000
+
+	dc.l 0xa1443000
+	dc.l 0xa4443000
+	dc.l 0xa4413000
+	dc.l 0xa4113000
+	dc.l 0xa1143000
+	dc.l 0xa3333000
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00003300
+	dc.l 0x00034433
+	dc.l 0x00034434
+	dc.l 0x00aaaa33
+	dc.l 0x00a99934
+
+	dc.l 0x00a91934
+	dc.l 0x00a11134
+	dc.l 0x00a91934
+	dc.l 0x00a99934
+	dc.l 0x00a19934
+	dc.l 0x00aaaa33
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x03300000
+	dc.l 0x34430000
+	dc.l 0x34430000
+	dc.l 0x3aaaa000
+	dc.l 0x3999a000
+
+	dc.l 0x3999a000
+	dc.l 0x3991a000
+	dc.l 0x3999a000
+	dc.l 0x3919a000
+	dc.l 0x3911a000
+	dc.l 0x3aaaa000
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x0000bb00
+	dc.l 0x000bccbb
+	dc.l 0x000bccbc
+	dc.l 0x003333bb
+	dc.l 0x003411bc
+
+	dc.l 0x003114bc
+	dc.l 0x003144bc
+	dc.l 0x003444bc
+	dc.l 0x003441bc
+	dc.l 0x003411bc
+	dc.l 0x003333bb
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x00000000
+	dc.l 0x0bb00000
+	dc.l 0xbccb0000
+	dc.l 0xbccb0000
+	dc.l 0xb3333000
+	dc.l 0xb1143000
+
+	dc.l 0xb1443000
+	dc.l 0xb4443000
+	dc.l 0xb4413000
+	dc.l 0xb4113000
+	dc.l 0xb1143000
+	dc.l 0xb3333000
+	dc.l 0x00000000
+	dc.l 0x00000000
+
+tiles_presents_end
+tiles_presents_size_b	equ (tiles_presents_end-tiles_presents)
+tiles_presents_size_w	equ (tiles_presents_size_b/2)
+tiles_presents_size_l	equ (tiles_presents_size_b/4)
+tiles_presents_size_t	equ (tiles_presents_size_b/32)

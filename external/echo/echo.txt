@@ -1,0 +1,3 @@
+Place the following files in this directory from Sik's Echo Sound Engine project https://github.com/sikthehedgehog/Echo
+- echo.68k (https://github.com/sikthehedgehog/Echo/blob/master/src-68k/echo.68k)
+- prog-z80.bin (https://github.com/sikthehedgehog/Echo/blob/master/built/prog-z80.bin)
