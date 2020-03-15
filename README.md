@@ -9,6 +9,10 @@ Setup
 2) Place the following files in the directory external/echo from Sik's Echo Sound Engine project https://github.com/sikthehedgehog/Echo
 - echo.68k https://github.com/sikthehedgehog/Echo/blob/master/src-68k/echo.68k
 - prog-z80.bin https://github.com/sikthehedgehog/Echo/blob/master/built/prog-z80.bin
+3) Find this line in echo.68k
+   @Z80Program: incbin "../bin/prog-z80.bin"
+   and replace it with 
+   @Z80Program: incbin "external/echo/prog-z80.bin"
 
 ----------------------------------
 Build
